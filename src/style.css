@@ -1,1 +1,313 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.snare {
+  border-radius: 125px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-top: 160px;
+  margin-left: -70px;
+  border: 2px solid gray;
+  background-color: #e3dfdd;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snarehit {
+  border-radius: 125px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-top: 160px;
+  margin-left: -70px;
+  border: 2px solid gray;
+  background: rgb(227, 223, 221);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(227, 223, 221, 1) 50%,
+    rgba(227, 223, 221, 1) 99%
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tom1 {
+  border-radius: 125px;
+  float: left;
+  width: 90px;
+  height: 90px;
+  margin-top: 70px;
+  margin-left: -50px;
+  border: 2px solid gray;
+  background-color: #e3dfdd;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tom1hit {
+  border-radius: 125px;
+  float: left;
+  width: 90px;
+  height: 90px;
+  margin-top: 70px;
+  margin-left: -50px;
+  border: 2px solid gray;
+  background: rgb(227, 223, 221);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(227, 223, 221, 1) 50%,
+    rgba(227, 223, 221, 1) 99%
+  );
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tom2 {
+  border-radius: 125px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-top: 70px;
+  margin-left: -68px;
+  border: 2px solid gray;
+  background-color: #e3dfdd;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tom2hit {
+  border-radius: 125px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-top: 70px;
+  margin-left: -68px;
+  border: 2px solid gray;
+  background: rgb(227, 223, 221);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(227, 223, 221, 1) 50%,
+    rgba(227, 223, 221, 1) 99%
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tom3 {
+  border-radius: 125px;
+  float: left;
+  width: 110px;
+  height: 110px;
+  margin-top: 160px;
+  margin-left: -50px;
+  border: 2px solid gray;
+  background-color: #e3dfdd;
+  z-index: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tom3hit {
+  border-radius: 125px;
+  float: left;
+  width: 110px;
+  height: 110px;
+  margin-top: 160px;
+  margin-left: -50px;
+  border: 2px solid gray;
+  background: rgb(227, 223, 221);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(227, 223, 221, 1) 50%,
+    rgba(227, 223, 221, 1) 99%
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kick {
+  border-radius: 5px;
+  float: left;
+  width: 150px;
+  height: 120px;
+  margin-top: 42px;
+  margin-left: -80px;
+  border: 1px solid black;
+  background-color: red;
+  z-index: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kickhit {
+  border-radius: 5px;
+  float: left;
+  width: 150px;
+  height: 120px;
+  margin-top: 40px;
+  margin-left: -80px;
+  border: 1px solid black;
+  background-color: red;
+  z-index: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hihat {
+  border-radius: 100px;
+  float: left;
+  width: 85px;
+  height: 85px;
+  margin-top: 115px;
+  background: rgb(180, 144, 103);
+  background: radial-gradient(
+    circle,
+    rgba(180, 144, 103, 1) 0%,
+    rgba(247, 232, 210, 1) 25%,
+    rgba(251, 239, 218, 1) 28%,
+    rgba(232, 208, 178, 1) 99%
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hihathit {
+  border-radius: 100px;
+  float: left;
+  width: 85px;
+  height: 75px;
+  margin-top: 120px;
+  background: rgb(180, 144, 103);
+  background: radial-gradient(
+    circle,
+    rgba(180, 144, 103, 1) 0%,
+    rgba(247, 232, 210, 1) 25%,
+    rgba(251, 239, 218, 1) 28%,
+    rgba(232, 208, 178, 1) 99%
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crash {
+  border-radius: 125px;
+  float: left;
+  width: 110px;
+  height: 110px;
+  margin-top: 5px;
+  margin-left: -50px;
+  z-index: 2;
+  background: rgb(180, 144, 103);
+  background: radial-gradient(
+    circle,
+    rgba(180, 144, 103, 1) 0%,
+    rgba(247, 232, 210, 1) 25%,
+    rgba(251, 239, 218, 1) 28%,
+    rgba(232, 208, 178, 1) 99%
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crashhit {
+  border-radius: 125px;
+  float: left;
+  width: 110px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: -50px;
+  z-index: 2;
+  background: rgb(180, 144, 103);
+  background: radial-gradient(
+    circle,
+    rgba(180, 144, 103, 1) 0%,
+    rgba(247, 232, 210, 1) 25%,
+    rgba(251, 239, 218, 1) 28%,
+    rgba(232, 208, 178, 1) 99%
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ride {
+  border-radius: 125px;
+  float: left;
+  width: 125px;
+  height: 125px;
+  margin-top: 90px;
+  margin-left: -62px;
+  z-index: 0;
+  background: rgb(180, 144, 103);
+  background: radial-gradient(
+    circle,
+    rgba(180, 144, 103, 1) 0%,
+    rgba(247, 232, 210, 1) 25%,
+    rgba(251, 239, 218, 1) 28%,
+    rgba(232, 208, 178, 1) 99%
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ridehit {
+  border-radius: 125px;
+  float: left;
+  width: 125px;
+  height: 115px;
+  margin-top: 95px;
+  margin-left: -62px;
+  z-index: 0;
+  background: rgb(180, 144, 103);
+  background: radial-gradient(
+    circle,
+    rgba(180, 144, 103, 1) 0%,
+    rgba(247, 232, 210, 1) 25%,
+    rgba(251, 239, 218, 1) 28%,
+    rgba(232, 208, 178, 1) 99%
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

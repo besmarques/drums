@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Drum</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -12,18 +12,58 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+  <body onload="myFunction()">
+    <div class="container">
+      <h1>welcome to drums</h1>
+      <p>use the following keys:</p>
+      <ul>
+        <li>c for snare 67</li>
+        <li>f for tom1 70</li>
+        <li>g for tom2 71</li>
+        <li>B for tom3 66</li>
+        <li>N for kick 78</li>
+        <li>J for hihat 74</li>
+        <li>K for crash 75</li>
+        <li>L for ride 76</li>
+      </ul>
+      <div class="drumkit" style="width:500px;margin:auto;">
+        <div class="hihat">hihat</div>
+        <div class="crash">crash</div>
+        <div class="snare">snare</div>
+        <div class="tom1">tom1</div>
+        <div class="kick">kick</div>
+        <div class="tom2">tom2</div>
+        <div class="tom3">tom3</div>
+        <div class="ride">ride</div>
       </div>
     </div>
+
+    <audio id="audiocrash" controls style="display:none;">
+      <source src="src/assets/wavs/crash.wav" type="audio/mpeg" />
+    </audio>
+    <audio id="audiohihat" controls style="display:none;">
+      <source src="src/assets/wavs/hihat.wav" type="audio/mpeg" />
+    </audio>
+    <audio id="audiokick" controls style="display:none;">
+      <source src="src/assets/wavs/kick.wav" type="audio/mpeg" />
+    </audio>
+    <audio id="audioride1" controls style="display:none;">
+      <source src="src/assets/wavs/ride1.wav" type="audio/mpeg" />
+    </audio>
+    <audio id="audioride2" controls style="display:none;">
+      <source src="src/assets/wavs/ride2.wav" type="audio/mpeg" />
+    </audio>
+    <audio id="audiosnare" controls style="display:none;">
+      <source src="src/assets/wavs/snare.wav" type="audio/mpeg" />
+    </audio>
+    <audio id="audiotom1" controls style="display:none;">
+      <source src="src/assets/wavs/tom1.wav" type="audio/mpeg" />
+    </audio>
+    <audio id="audiotom2" controls style="display:none;">
+      <source src="src/assets/wavs/tom2.wav" type="audio/mpeg" />
+    </audio>
+    <audio id="audiotom3" controls style="display:none;">
+      <source src="src/assets/wavs/tom3.wav" type="audio/mpeg" />
+    </audio>
   </body>
 </html>
